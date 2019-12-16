@@ -1,0 +1,226 @@
+
+.hide {
+  visibility: hidden;
+}
+
+/*index*/
+.index {
+  display: block;
+}
+/*index/>*/
+
+/*indexBlock*/
+.indexBlock{
+  float:right; width:70%;
+  
+}
+
+.indexBlock img{
+  width: 80%;
+  padding-top: 2%;
+  border-radius: 30px 30px 20px 20px;
+}
+/*indexBlock/>*/
+
+/*InfoBlock*/
+.InfoBlock {
+  float:right; width:70%; margin-right:1%;
+  
+}
+.InfoBlock h3{
+  text-align: center;
+}
+.InfoBlock p{
+  text-align: center;
+}
+/*InfoBlock/>*/
+
+/*loginBlock*/
+.loginBlock{
+  float:right; width:70%; margin-right:1%;
+ 
+}
+
+.loginBlock input {
+  margin: 0px 0px 10px 10px;
+  
+}
+
+.loginBlock p {
+  display: inline;
+  margin: 0px 0px 10px 5px;
+}
+
+.loginBlock h3 {
+  margin: 0px 0px 10px 30px;
+}
+
+.loginBlock button {
+  margin: 0px 0px 0px 15px;
+  display: inline-block;
+  width: 15em;
+  font-size: 80%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+.loginBlock button3:first-line{
+  font-size: 170%;
+  font-weight: 700;
+}
+.loginBlock button:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+.loginBlock button:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
+
+
+/*loginBlock/>*/
+
+/*profileBlock*/
+.profileBlock {
+  float:right; width:70%; margin-right:1%;
+  
+}
+.profileBlock img{
+  float: left; width:25%;
+  display: table-cell;
+  margin: 0;
+  padding: 20px;
+
+}
+
+
+/*profileBlock/>*/
+
+
+/*header */
+.header {
+  display:table;
+  grid-area: h;
+  background-color:  #EEE3DB;
+  border-radius: 0px 0px 20px 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header img{
+  width: 100px;
+  display: table-cell;
+  margin: 0;
+  padding-left: 80px;
+  padding-right: 73px;
+}
+
+.header h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  /*max-width: 320px;*/
+  width: 100%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  color: #465457;
+  /*padding-left: 20%;*/
+}
+
+/*header/>*/
+
+
+/*navbar*/
+.nav {
+  float:left;
+  width:24%;
+  margin-left:1%;
+  
+  /*grid-area: n;*/
+  list-style: none;
+  background: #EEE3DB;
+  margin: 0;
+  padding: 10px;
+  border-radius: 0px 0px 20px 20px; 
+}
+
+.nav li {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 40px;
+  border-bottom: 1px solid #D4D7D6;
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #464643;
+  display: block;
+  line-height: 40px;
+  position: relative;
+
+}
+
+.nav a:before {
+  content:"";
+  position: absolute;
+  left: -20px;
+  top: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #A58063;
+  }
+  
+.nav li:last-child {border-bottom: none;}
+.nav li:before, 
+.nav li:after {
+content:"";
+position: absolute;
+border-radius: 50%;
+}
+
+.nav li:before {
+top: calc(50% - 5px);
+background: #E0926E;
+left: -22px;
+width: 10px;
+height: 10px;
+transition: 0.5s linear;
+}
+
+.nav li:after {
+bottom: 6px;
+left: -20px;
+width: 6px;
+height: 6px;
+background: #A58063;
+}
+
+.nav li:hover:before {background: #FFCE08;}
+
+/*navbar/>*/
+
+/*CalendarBlock*/
+.CalendarBlock{
+
+float:right; width:70%; margin-right:3%;
+padding-top: 1%;
+}
+
+
+
