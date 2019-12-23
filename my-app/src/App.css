@@ -55,10 +55,10 @@
   margin: 0px 0px 10px 30px;
 }
 
-.loginBlock button {
-  margin: 0px 0px 0px 15px;
+.btn01 {
+  margin: 0px 0px 0px 5px;
   display: inline-block;
-  width: 15em;
+  width: 18em;
   font-size: 80%;
   color: rgba(255,255,255,.9);
   text-shadow: #2e7ebd 0 1px 2px;
@@ -74,15 +74,15 @@
   background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
   box-shadow: inset rgba(255,255,255,.5) 1px 1px;
 }
-.loginBlock button3:first-line{
+.btn01:first-line{
   font-size: 170%;
   font-weight: 700;
 }
-.loginBlock button:hover {
+.btn01:hover {
   color: rgb(255,255,255);
   background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
 }
-.loginBlock button:active {
+.btn01:active {
   color: rgb(255,255,255);
   border-color: #2970a9;
   background-image: linear-gradient(#5796c8, #6aa2ce);
@@ -216,11 +216,21 @@ background: #A58063;
 /*navbar/>*/
 
 /*CalendarBlock*/
-.CalendarBlock{
+.CalendarBlock {
 
 float:right; width:70%; margin-right:3%;
 padding-top: 1%;
 }
 
+.CalendarBlock_head_left button {
+  margin: 0px 0px 0px 5px;
+  width: 10em;
+  font-size: 70%;
+}
 
+.CalendarBlock_head_left {
 
+}
+.CalendarBlock_head_ringt {
+
+}
