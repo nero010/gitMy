@@ -217,20 +217,106 @@ background: #A58063;
 
 /*CalendarBlock*/
 .CalendarBlock {
-
+height: 200px;
 float:right; width:70%; margin-right:3%;
 padding-top: 1%;
+}
+
+.CalendarBlock_head {
+  background: #fcfcfc;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .CalendarBlock_head_left button {
   margin: 0px 0px 0px 5px;
   width: 10em;
-  font-size: 70%;
+  font-size: 60%;
+  background: #0173ce;
+  margin-top: 25%;
 }
 
 .CalendarBlock_head_left {
+  height: 100px;
+  display: inline-block;
+  
+}
+
+.CalendarBlock_head_ringt {
+  height: 100px;
+  display: inline-block;
+  padding-left: 20px;
+  float: right;
+  margin-top: -15px;
+}
+
+.CalendarBlock_head_ringt img {
+  display: inline-block;
+  width: 7%;
+  padding-top: 7%;
+  padding-right: 5%;
+  margin-top: 20%;
+}
+
+.CalendarBlock_main_head {
+  height: 100px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.CalendarBlock_main_head button {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  background:#ffffff;
+  height: 25px;
+}
+
+.CalendarBlock_main_head button:hover {
+  background:#ececec;
+}
+
+
+.CalendarBlock_main_head_text {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+}
+
+.CalendarBlock_main table {
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  
+}
+
+.CalendarBlock_main tr {
+  border: 1px solid #d0d0d0;
 
 }
-.CalendarBlock_head_ringt {
 
+.CalendarBlock_main th {
+  border: 1px solid #d0d0d0;
+  width: 280px;
+
+}
+
+.CalendarBlock_main td {
+  border: 1px solid #d0d0d0;
+  width: 280px;
+  height: 150px;
+}
+
+.CalendarBlock_main td textarea {
+  width: 97%;
+  height: 75%;
+  border: 0px;
+  resize: none;
+ 
+}
+
+
+.CalendarBlock_main td p {
+  text-align: left;
+  color: #adadad;
+  margin: 5%;
 }
